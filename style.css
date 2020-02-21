@@ -1,0 +1,62 @@
+body {
+  font-family: "Roboto";
+}
+
+.form-div {
+  border: 1px solid black;
+  border-radius: 10px 10px;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: gray 1px 1px 1px 1px;
+}
+
+.form-div span,
+button {
+  margin: 0.5rem 0 0 0;
+}
+.form-div h4 {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.form-div span {
+  border-radius: 10px 10px;
+  margin-top: 1rem;
+  box-shadow: gray 1px 1px 1px 1px;
+  color: white;
+  background-color: rgba(101, 101, 224, 0.8);
+}
+
+.form-div button {
+  margin-bottom: 1rem;
+  border: none;
+  padding: 0.4rem;
+  box-shadow: gray 1px 1px 1px 1px;
+  cursor: pointer;
+  border-radius: 5px 5px;
+  color: white;
+  background-color: rgba(101, 101, 224, 0.8);
+}
+
+.hide {
+  display: none;
+}
+
+#okP {
+  background-color: darkgreen;
+  color: white;
+  border-radius: 10px 10px;
+  padding: 0.5rem;
+}
+
+#notOkP {
+  background-color: darkred;
+  color: white;
+  border-radius: 10px 10px;
+  padding: 0.5rem;
+}
